@@ -1,0 +1,21 @@
+/*Giftastic style sheet*/
+
+/*adds space between buttons*/
+.btn {
+
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/*aligns text better with buttons(which were already set to the fart left side container/row)*/
+h1,
+h3 {
+  margin-left: 15px;
+}
+
+h3 {
+
+font-style: italic;
+
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name=“viewport” content=“width=device-width, initial-scale=1”>
+    <title>GIFTASTIC/GIF-LAFFS</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <h1>GIF-LAFFS</h1>
+                <h3>Click a button to view GIFs, then click on GIFs to animate!</h3>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10" id="comicButtons"></div>
+                <div class="col-md-2">
+                    <form id="comicForm">
+                        <label for="comicInput">Want to see more?</label>
+                        <input class="form-control" type="text" id="comicInput" placeholder="search gifs">
+                        <button id="addComic" class="btn btn-primary btn-block button-submit" type="submit" value="Submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10" id="comedians">
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.0.js" integrity="sha256-wPFJNIFlVY49B+CuAIrDr932XSb6Jk3J1M22M3E2ylQ=" crossorigin="anonymous"></script>
+        <script src="assets/javascript/giftastic.js"></script>
+</body>
+
+</html>
