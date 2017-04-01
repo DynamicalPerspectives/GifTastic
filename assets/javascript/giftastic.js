@@ -17,7 +17,7 @@ $("#addComic").on("click", function() {
 // searching from giphy API
 $(document.body).on("click", ".button-list", function() {
     var comicName = $(this).data("comedian");
-    var query = "http://api.giphy.com/v1/gifs/search?q=" + comicName + "&limit=10&api_key=dc6zaTOxFJmzC";
+    var query = "https://api.giphy.com/v1/gifs/search?q=" + comicName + "&limit=10&api_key=dc6zaTOxFJmzC";
     $("#comedians").empty();
     $.ajax({
         url: query,
